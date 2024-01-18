@@ -1,13 +1,16 @@
 ---
-title: Our project name
+title: Super glasses
 type: docs
 ---
 
-# The project name
+# Super glasses
 
 ## Abstract
 
-A short and concise description of your project. 
+The view through glasses can easily get blocked due to rain drops or fogging and 
+cleaning it means taking it off. Since this action can be a hassle, 
+Super glasses can clean themselves by clicking on a button. 
+Additionally, they can display emotions, as glasses tend to cover the eyebrows.
 
 ## Introduction
 
