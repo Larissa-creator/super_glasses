@@ -14,11 +14,15 @@ Additionally, they can display emotions, as glasses tend to cover the eyebrows.
 
 ## Introduction
 
-A detailed description of the concept and sketches of the planned implementation.
+The idea is to have wippers be attached to the glasses 
+so that the glasses will clean themselves.
+A button click starts the servo motors 
+which perform the cleaning motion with the wippers on it.
 
-If a section grows too large or handles a very specific part of the project it can be put into [subpages]({{< ref "subpage_1#how-to-format" >}}).
-
-{{< figure src="get_in.jpg" caption="*A drawing by David Shrigley.*">}}
+<figure>
+    <img src="brille_sketch.jpg" alt="A sketch of the idea"/>
+  <figcaption>A sketch of the idea</figcaption>
+</figure>
 
 ## Related work 
 
