@@ -8,9 +8,10 @@ type: docs
 ## Abstract
 
 The view through glasses can easily get blocked due to rain drops or fogging and 
-cleaning it means taking it off. Since this action can be a hassle, 
+for cleaning it must be taken off. Since this action can be a hassle, 
 Super glasses can clean themselves by clicking on a button. 
-Additionally, they can display emotions, as glasses tend to cover the eyebrows.
+Additionally, they can display emotions, as glasses tend to cover the eyebrows and 
+big sunglasses even cover the eyes
 
 ## Introduction
 
@@ -26,7 +27,12 @@ which perform the cleaning motion with the wippers on it.
 
 ## Related work 
 
-References to related concepts, projects, books, websites, stories, systems, fruits, etc. and their relation to the project at hand.
+<p>(References to related concepts, projects, books, websites, stories, systems, fruits, etc. and their relation to the project at hand.)</p>
+
+{{< figure src="./assets/1relatedWork.png" caption="*pictrure of a similar project*">}}
+The picture above shows a similar project which uses plastic pieces as windscreen wipers to move rain drops to the side of the glasses. 
+For the movement it uses a small motor which is attached to the side of the glasses and connected to the plastic wipers via wires.
+[Source](https://youtube.com/shorts/yv6GhCoSSO8?si=K6DPu0hzVph28PmN) 
 
 ## Implementation 
 
