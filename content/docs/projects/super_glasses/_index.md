@@ -21,7 +21,7 @@ A button click starts the servo motors
 which perform the cleaning motion with the wippers on it.
 
 <figure>
-    <img src="brille_sketch.jpg" alt="A sketch of the idea"/>
+    <img src="./assets/brille_sketch.jpg" alt="A sketch of the idea" style="max-height: 200px"/>
   <figcaption>A sketch of the idea</figcaption>
 </figure>
 
@@ -29,7 +29,11 @@ which perform the cleaning motion with the wippers on it.
 
 <p>(References to related concepts, projects, books, websites, stories, systems, fruits, etc. and their relation to the project at hand.)</p>
 
-{{< figure src="./assets/1relatedWork.png" caption="*pictrure of a similar project*">}}
+
+<figure>
+    <img src="./assets/1relatedWork.png" alt="Similar project"/>
+  <figcaption>A picture of a similar project</figcaption>
+</figure>
 The picture above shows a similar project which uses plastic pieces as windscreen wipers to move rain drops to the side of the glasses. 
 For the movement it uses a small motor which is attached to the side of the glasses and connected to the plastic wipers via wires.
 [Source](https://youtube.com/shorts/yv6GhCoSSO8?si=K6DPu0hzVph28PmN) 
