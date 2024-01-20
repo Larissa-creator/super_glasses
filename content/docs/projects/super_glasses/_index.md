@@ -11,7 +11,7 @@ The view through glasses can easily get blocked due to rain drops or fogging and
 for cleaning it must be taken off. Since this action can be a hassle, 
 Super glasses can clean themselves by clicking on a button. 
 Additionally, they can display emotions, as glasses tend to cover the eyebrows and 
-big sunglasses even cover the eyes
+big sunglasses even cover the eyes.
 
 ## Introduction
 
@@ -46,9 +46,22 @@ The next related project Wiper Glassez from Benjamin King shown in the picture a
 
 A detailed description of your prototyping process.
 
-### Iteration №1
+### Paper Prototype
 
-This did not work.
+At the beginning a paper prototype with additional real sunglasses, a battery and a small breadboard was built in a prototyping session to make the idea quickly tangible. The following pictures show some impressions of this session. The sunglasses had windscreen wipers built with popsicle sticks and paper. The Arduino was also rebuilt with paper. The fake Arduino, the battery and the breadboard were attached to a hairband. Furthermore the prototype had a rain cover to protect the electronics. Of couse this version of the prototype did not had any functionality but the design was already very similar to the later versions of the prototype.
+
+<figure>
+    <img src="./assets/Paper_Prototype_Build.jpg" alt="A sketch of the idea" style="max-height: 300px"/>
+  <figcaption>The picture shows the build process of the paper prototype</figcaption>
+</figure>
+<figure>
+    <img src="./assets/Paper_Prototype_finished.jpg" alt="A sketch of the idea" style="max-height: 400px"/>
+  <figcaption>A picture of the finished paper prototype</figcaption>
+</figure>
+<figure>
+    <img src="./assets/Paper_Prototype_finished_with_hat.jpg" alt="A sketch of the idea" style="max-height: 400px"/>
+  <figcaption>A picture of the finished paper prototype with a rain cover</figcaption>
+</figure>
 
 ### Iteration №2
 
