@@ -11,19 +11,19 @@ The view through glasses can easily get blocked due to rain drops or fogging and
 for cleaning it must be taken off. Since this action can be a hassle, 
 Super glasses can clean themselves by clicking on a button. 
 Additionally, they can display emotions, as glasses tend to cover the eyebrows and 
-big sunglasses even cover the eyes
+big sunglasses even cover the eyes.
 
 ## Introduction
 
-The idea is to have wippers be attached to the glasses 
-so that the glasses will clean themselves.
-A button click starts the servo motors 
-which perform the cleaning motion with the wippers on it.
+The idea for the project is to have wippers that are attached to the glasses 
+so that the glasses can clean themselves. A button click starts two servo motors which are attached to the temples of the glasses next to the spectacle lens. They perform the cleaning motion with the wippers on it.
 
 <figure id="sketch">
     <img src="./assets/brille_sketch.jpg" alt="A sketch of the idea" style="max-height: 200px"/>
   <figcaption><em>A sketch of the idea</em></figcaption>
 </figure>
+
+This documentation contains three more sections. The next section related work presents books, websites and similar projects which give an introduction to the inexperienced reader. In the section Implementation the iterations of the build process are presented. 
 
 ## Related work
 
@@ -40,9 +40,7 @@ Moreover, the two microcontrollers are also present in the literature.
 For example the Rheinwerk publishing house published the books [Arduino](https://www.rheinwerk-verlag.de/arduino-das-umfassende-handbuch/) and [ESP32](https://www.rheinwerk-verlag.de/mikrocontroller-esp32-das-umfassende-handbuch/) 
 which give a good introduction to the world of Microcontrollers.
 
-After the decision to build windscreen wipers for glasses, 
-the research on the internet showed that other people also had the same idea. 
-In the following some related projects are presented which are published on the video platform YouTube.
+After the decision to build windscreen wipers for glasses, the research on the internet showed that other people also had the same idea. In the following some related projects are presented which are published on the video platform YouTube.
 
 <figure id="sketch">
     <img src="./assets/1relatedWork.png" alt="Project from Deffinite CoRen" style="max-height: 200px"/>
@@ -73,12 +71,24 @@ As an extension, it uses a moisture sensor to trigger the movement.
 
 
 ## Implementation 
-
-A detailed description of your prototyping process.
+ This section contains a detailed description of the prototyping process.
 
 ### Paper Prototyping Session
 
-This did not work.
+At the beginning a paper prototype with additional real sunglasses, a battery and a small breadboard was built in a prototyping session to make the idea quickly tangible. The following pictures show some impressions of this session. The sunglasses had windscreen wipers built with popsicle sticks and paper. The Arduino was also rebuilt with paper. The fake Arduino, the battery and the breadboard were attached to a hairband. Furthermore the prototype had a rain cover to protect the electronics. Of couse this version of the prototype did not had any functionality but the design was already very similar to the later versions of the prototype.
+
+<figure>
+    <img src="./assets/Paper_Prototype_Build.jpg" alt="A sketch of the idea" style="max-height: 300px"/>
+  <figcaption>The picture shows the build process of the paper prototype</figcaption>
+</figure>
+<figure>
+    <img src="./assets/Paper_Prototype_finished.jpg" alt="A sketch of the idea" style="max-height: 400px"/>
+  <figcaption>A picture of the finished paper prototype</figcaption>
+</figure>
+<figure>
+    <img src="./assets/Paper_Prototype_finished_with_hat.jpg" alt="A sketch of the idea" style="max-height: 400px"/>
+  <figcaption>A picture of the finished paper prototype with a rain cover</figcaption>
+</figure>
 
 ### First version with the Arduino
 
@@ -108,7 +118,7 @@ To make the cabling reproducible, there is <a href="#v01img">the image <em>The c
 </figure>
 
 The complete code of the first version can be found on the subpage [First version's code]({{< ref "v01_code" >}}). 
-The code works the following way: The arduino continuously listens whether the button has been pressed or not. 
+The code works the following way: The Arduino continuously listens whether the button has been pressed or not. 
 If it has been, the pin position will be attached to the servo and then the servos move the wippers once down and up.
 Afterward the pin position will be detached.
 
