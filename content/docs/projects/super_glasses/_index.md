@@ -114,7 +114,43 @@ Afterward the pin position will be detached.
 
 ### Second version with the ESP32
 
-This worked!
+After knowing the ESP32 we decided to use it instead of the Arduino 
+because the wearer would not need to search for the push button on their head anymore
+as it would exist on the smartphone. Since there is enough space on the website 
+we also decided to implement additional buttons which show emotions with the wippers. 
+The end version has in total seven buttons: 
+<ul>
+    <li>Reset</li>
+    <li>Clean</li>
+    <li>Shock</li>
+    <li>Raised Eyebrow</li>
+    <li>Anger</li>
+    <li>Wiggle</li>
+    <li>Random</li>
+</ul>
+The website is styled with CSS so that the buttons are bigger and 
+that the states <code>hover</code> and <code>active</code> 
+are better visible. <a href="#website_states">The picture <em>The website with different button states</em></a> 
+shows on the left screen the buttons in the default state, on the middle one is <em>Clean</em> in the <code>hover</code> state 
+and on the right one is <em>Clean</em> in the <code>active</code> state.
+
+<figure id="website_states">
+    <img src="./assets/website_states.jpg" alt="The website with different button states" style="max-height: 300px"/>
+  <figcaption><em>The website with different button states</em></figcaption>
+</figure>
+
+The complete code of the final version can be found on the subpage [Final version's code]({{< ref "vend_code" >}}). 
+The code works the following way: When the ESP is connected to the WLAN with the given name and password, 
+the built-in LED will be on as long the microcontroller is connected to the WLAN.
+Additionally, the ESP32 will print to the Serial Monitor the address where the website will be shown.
+Every button on the website has an ID and an <code>EventListener</code> 
+which sends the ID to the ESP when the button is pressed. 
+As the ID tells which button has been pressed, 
+the corresponding action can then be performed.
+Afterward, the ESP32 updates the website with the <code>h1</code> 
+being the last pressed button. 
+The title change exists for debugging so that we know 
+if the code was iterated in case the action did not happen.
 
 ### Time to solder
 
