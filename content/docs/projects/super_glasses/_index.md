@@ -97,15 +97,15 @@ but the design was already very similar to the later versions of the prototype.
 
 <figure>
     <img src="./assets/Paper_Prototype_Build.jpg" alt="The build process of the paper prototype" style="max-height: 300px"/>
-  <figcaption>The build process of the paper prototype</figcaption>
+  <figcaption><em>The build process of the paper prototype</em></figcaption>
 </figure>
 <figure>
     <img src="./assets/Paper_Prototype_finished.jpg" alt="The finished paper prototype" style="max-height: 400px"/>
-  <figcaption>The finished paper prototype</figcaption>
+  <figcaption><em>The finished paper prototype</em></figcaption>
 </figure>
 <figure>
     <img src="./assets/Paper_Prototype_finished_with_hat.jpg" alt="The finished paper prototype with a rain cover" style="max-height: 400px"/>
-  <figcaption>The finished paper prototype with a rain cover</figcaption>
+  <figcaption><em>The finished paper prototype with a rain cover</em></figcaption>
 </figure>
 
 ### First version with the Arduino
@@ -221,7 +221,7 @@ Constructing a case for the ESP32 and the battery aimed at safeguarding the comp
 </figure>
 <figure id="summerTheme">
     <img src="./assets/sketch_summer_theme.jpg" alt="Sketches for the case with different themes" style="max-height: 300px"/>
-  <figcaption><em>detailed sketch of the case</em></figcaption>
+  <figcaption><em>Detailed sketch of the case</em></figcaption>
 </figure>
 <figure id="caseSide">
     <img src="./assets/case_side_view.jpg" alt="The case for the ESP32 and the battery from the side" style="max-height: 300px"/>
