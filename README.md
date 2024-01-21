@@ -5,7 +5,7 @@ Using GitHub pages you can access the finished documentation via [https://lariss
 
 It uses the static site generator [Hugo](https://gohugo.io/) to generate a web pages from Markdown files with the [Hugo Book Theme](https://github.com/alex-shpak/hugo-book) and the theme component [hugo-video](https://github.com/martignoni/hugo-video).
 
-##See the documentation locally
+## See the documentation locally
 Run the Hugo server.
 
 ```bash
