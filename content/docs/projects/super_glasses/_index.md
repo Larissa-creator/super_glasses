@@ -249,6 +249,10 @@ than necessary so that we could make adjustments with the drill.
 The sponge is attached to the new wiper with glue.
 
 <figure>
+    <img src="./assets/Maya.jpg" alt="3D model of the wiper in Maya with its sizes in cm" style="max-height: 300px"/>
+  <figcaption><em>3D model of the wiper in Maya with its sizes in cm</em></figcaption>
+</figure>
+<figure>
     <img src="./assets/3dprint.jpg" alt="The 3D printer finished printing the wipers." style="max-height: 300px"/>
   <figcaption><em>The 3D printer finished printing the wipers.</em></figcaption>
 </figure>
