@@ -182,15 +182,15 @@ if the code was iterated in case the action did not happen.
 
 ### Time to solder
 
-To reduce the amount of cables needed and to prevent them from detaching,
+To reduce the number of cables needed and to prevent them from detaching,
 we decided to solder. 
 <a href="#vendcircuit">The image <em>Final version's circuit</em></a>
-shows as its name suggest the final circuit. 
-On <a href="#solderbelow">the photo <em>The PCB from below</em></a> one can see how we soldered. 
+shows, as its name suggests, the final circuit. 
+On <a href="#solderbelow">the photo <em>The PCB from below</em></a> , one can see how we soldered. 
 <a href="#vendimg">The image <em>The final cabling as a diagram</em></a> 
 is the translation of the soldering as a diagram.
 <a href="#vendcomp">The photo <em>The result of the soldering</em></a> 
-shows that the battery, the ESP32 and the servo motors are now connected with the PCB.
+shows that the battery, the ESP32 and the servo motors are now connected to the PCB.
 By putting the battery below the PBC, what the user needs to wear 
 becomes even more compact as they can be put into one case. 
 
@@ -213,19 +213,23 @@ becomes even more compact as they can be put into one case.
 
 ### Building a case
 
-Larissa
+Constructing a case for the ESP32 and the battery aimed at safeguarding the components from external influences and making the prototype look more funny. Initial stages involved sketching various case designs on paper, each related to different themes like Halloween, winter, or summer. The photo <a href="#allThemes"><em>Sketches for the case with different themes</em></a> shows the result of this step. The summer-inspired design was to be the final version, as the prototype was built with sunglasses. After this decision, the exact design was planned. The photo <a href="#summerTheme"><em>detailed sketch of the case</em></a> shows the sketch made in this step. The finished case, which resembles a deckchair, was made using popsicle sticks and attached to the hairband. Additionally, a small red bucket filled with sand was crafted to support the summer theme. The photos <a href="#caseSide"><em>Case for the ESP32 and the battery from the side</em></a> and <a href="#caseTop"><em>Case for the ESP32 and the battery from the top</em></a> show the finished casing.
 
-<figure>
+<figure id="allThemes">
     <img src="./assets/sketches_for_case.jpg" alt="Sketches for the case with different themes" style="max-height: 300px"/>
   <figcaption><em>Sketches for the case with different themes</em></figcaption>
 </figure>
-<figure>
-    <img src="./assets/case_side_view.jpg" alt="The case for the ESP32 and the battery from the side" style="max-height: 300px"/>
-  <figcaption><em>The case for the ESP32 and the battery from the side</em></figcaption>
+<figure id="summerTheme">
+    <img src="./assets/sketch_summer_theme.jpg" alt="Sketches for the case with different themes" style="max-height: 300px"/>
+  <figcaption><em>detailed sketch of the case</em></figcaption>
 </figure>
-<figure>
+<figure id="caseSide">
+    <img src="./assets/case_side_view.jpg" alt="The case for the ESP32 and the battery from the side" style="max-height: 300px"/>
+  <figcaption><em>Case for the ESP32 and the battery from the side</em></figcaption>
+</figure>
+<figure id="caseTop">
     <img src="./assets/case_top_view.jpg" alt="The case for the ESP32 and the battery from the top" style="max-height: 300px"/>
-  <figcaption><em>The case for the ESP32 and the battery from the top</em></figcaption>
+  <figcaption><em>Case for the ESP32 and the battery from the top</em></figcaption>
 </figure>
 
 
