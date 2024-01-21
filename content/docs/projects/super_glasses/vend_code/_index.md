@@ -211,7 +211,7 @@ void wiggle() {
 
   // goes down to defaultstate
   for (int i = wiggleRot; i &gt;= 0; i -= 1) {
-    rotateBothAngle(baseRot, 0, i, down, delaytime);
+    rotateBothAngle(baseRot, 0, i, false, delaytime);
   }
 }
 

@@ -231,7 +231,27 @@ Larissa
 
 ### 3D print the wipers
 
+Since the popsicle is straight and the lens of the glasses is curved, 
+the sponge does not cover the full lens. 
+Therefore, we needed something curved which was hard and as broad as the popsicle. 
+The last condition is necessary to prevent the sponge from spinning. 
+As we did not find metal which fulfilled our conditions in the shops, 
+we decided to 3D print the wipers. The model was created in Maya and 
+then printed with the printer Prusa with PETG as the material. 
+Two iterations were needed as the first version's hole 
+which would connect the wiper with the motor was too big.
+For the second version the hole was intentionally made a little bit smaller 
+than necessary so that we could make adjustments with the drill.
+The sponge is attached to the new wiper with glue.
 
+<figure>
+    <img src="./assets/3dprint.jpg" alt="The 3D printer finished printing the wipers." style="max-height: 300px"/>
+  <figcaption><em>The 3D printer finished printing the wipers.</em></figcaption>
+</figure>
+<figure>
+    <img src="./assets/3dclose.jpg" alt="Close-up of the freshly printed wipers" style="max-height: 300px"/>
+  <figcaption><em>Close-up of the freshly printed wipers</em></figcaption>
+</figure>
 
 ## Conclusion
 

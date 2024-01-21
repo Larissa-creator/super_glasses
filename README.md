@@ -1,5 +1,6 @@
 # Short Introduction
-This repository contains the documentation for the project Super Glasses. We build it in the master module Design for Physical Prototyping of the study course Interactive Media.
+This repository contains the documentation for the project <em>Super Glasses</em>. 
+We build it in the master module <em>Design for Physical Prototyping</em> of the study course <em>Interactive Media</em>.
 
 Using GitHub pages you can access the finished documentation via [https://larissa-creator.github.io/super_glasses](https://larissa-creator.github.io/super_glasses).
 
