@@ -23,24 +23,24 @@ so that the glasses can clean themselves. A button click starts two servo motors
   <figcaption><em>A sketch of the idea</em></figcaption>
 </figure>
 
-This documentation contains three more sections. The next section related work presents books, websites and similar projects which give an introduction to the inexperienced reader. In the section Implementation the iterations of the build process are presented. Also the code and the construction of the project will be presented in a detailed way. The last sections contains the conclusion. It finishes this documentation with a short reflection and the summarised project outcome. 
+This documentation contains three more sections. The next section related work presents books, websites and similar projects thar give an introduction to the inexperienced reader. In the section Implementation, the iterations of the build process are presented. Likewise, the code and the construction of the project will be presented in a detailed way. The last section contains the conclusion. It finishes this documentation with a short reflection and the summarized project outcome. 
 
 ## Related work
 
-For the Project Super Glasses a microcontroller is needed for the logic. 
-At the beginning the Arduino Uno was used. 
-Later it was replaced by an ESP32 to trigger the actions like clean via a website. 
+For the Project Super Glasses, a microcontroller is needed for the logic. 
+At the beginning, the Arduino Uno was used. 
+Later, it was replaced by an ESP32 to trigger actions like cleaning via a website. 
 These two Microcontrollers are both popular. 
-Consequently, there are a lot of projects presented on the internet on several websites and blogs 
+Consequently, there are numerous projects presented on the internet on several websites and blogs, 
 which make use of one of these Microcontrollers. 
-One reference about how to build an asynchronus web server with the ESP32 is published on the website [Random Nerd Tutorials](https://randomnerdtutorials.com/esp32-async-web-server-espasyncwebserver-library/). 
-The tutorial shows how to control three LEDs which are placed on a breadboard and connected to the ESP32. 
+One reference about how to build an asynchronous web server with the ESP32 is published on the website [Random Nerd Tutorials](https://randomnerdtutorials.com/esp32-async-web-server-espasyncwebserver-library/). 
+The tutorial shows how to control three LEDs, which are placed on a breadboard and connected to the ESP32. 
 
 Moreover, the two microcontrollers are also present in the literature. 
-For example the Rheinwerk publishing house published the books [Arduino](https://www.rheinwerk-verlag.de/arduino-das-umfassende-handbuch/) and [ESP32](https://www.rheinwerk-verlag.de/mikrocontroller-esp32-das-umfassende-handbuch/) 
+For example, the Rheinwerk publishing house published the books [Arduino](https://www.rheinwerk-verlag.de/arduino-das-umfassende-handbuch/) and [ESP32](https://www.rheinwerk-verlag.de/mikrocontroller-esp32-das-umfassende-handbuch/) 
 which give a good introduction to the world of Microcontrollers.
 
-After the decision to build windscreen wipers for glasses, the research on the internet showed that other people also had the same idea. In the following some related projects are presented which are published on the video platform YouTube.
+After the decision to build windscreen wipers for glasses, the research on the internet showed that other people also had the same idea. In the following, some related projects are presented, which are published on the video platform YouTube.
 
 <figure id="sketch">
     <img src="./assets/1relatedWork.png" alt="Project from Deffinite CoRen" style="max-height: 200px"/>
@@ -49,8 +49,8 @@ After the decision to build windscreen wipers for glasses, the research on the i
 
 The picture above shows a project which is related to the idea to wash away raindrops. 
 The construction is slightly different. It uses just one motor that can rotate 360°. 
-Similarly to the presented project it is attached to the side of the glasses. 
-For the wipers it uses plastic pieces which are each attached to the top of a spectacle lens. 
+Similarly to the presented project, it is attached to the side of the glasses. 
+For the wipers, it uses plastic pieces which are each attached to the top of a spectacle lens. 
 They are connected to the motor via wires. [Source](https://youtube.com/shorts/yv6GhCoSSO8?si=K6DPu0hzVph28PmN) 
 
 <figure id="sketch">
@@ -75,7 +75,7 @@ As an extension, it uses a moisture sensor to trigger the movement.
 
 ### Paper Prototyping Session
 
-At the beginning a paper prototype with additional real sunglasses, a battery and a small breadboard was built in a prototyping session to make the idea quickly tangible. The following pictures show some impressions of this session. The sunglasses had windscreen wipers built with popsicle sticks and paper. The Arduino was also rebuilt with paper. The fake Arduino, the battery and the breadboard were attached to a hairband. Furthermore the prototype had a rain cover to protect the electronics. Of couse this version of the prototype did not had any functionality but the design was already very similar to the later versions of the prototype.
+Initially, a paper prototype with the addition of real sunglasses, a battery and a small breadboard was built in a prototyping session to make the idea quickly tangible. The following pictures show some impressions of this session. The sunglasses had windscreen wipers built with popsicle sticks and paper. The Arduino was also rebuilt with paper. The fake Arduino, the battery and the breadboard were attached to a hairband. Furthermore, the prototype had a rain cover to protect the electronics. Of course, this version of the prototype did not have any functionality, but the design was already very similar to the later versions of the prototype.
 
 <figure>
     <img src="./assets/Paper_Prototype_Build.jpg" alt="A sketch of the idea" style="max-height: 300px"/>
@@ -92,7 +92,7 @@ At the beginning a paper prototype with additional real sunglasses, a battery an
 
 ### First version with the Arduino
 
-Our first try still had a real push button and was made with an Adruino. 
+Our first try still had a real push button and was made with an Arduino. 
 The wippers consisted of popsicle sticks and sponges as 
 the width of the stick prevented the sponge from rotating. 
 <figure>
@@ -119,8 +119,8 @@ To make the cabling reproducible, there is <a href="#v01img">the image <em>The c
 
 The complete code of the first version can be found on the subpage [First version's code]({{< ref "v01_code" >}}). 
 The code works the following way: The Arduino continuously listens whether the button has been pressed or not. 
-If it has been, the pin position will be attached to the servo and then the servos move the wippers once down and up.
-Afterward the pin position will be detached.
+If it has been, the pin position will be attached to the servo and then the servos move the wipers once down and up.
+Afterward, the pin position will be detached.
 
 ### Second version with the ESP32
 
@@ -128,9 +128,11 @@ This worked!
 
 ### Time to solder
 
+
+
 ### Building a case
 
-
+Larissa
 
 <figure>
     <img src="./assets/scetches_for_case.jpg" alt="The cabling as a diagram" style="max-height: 300px"/>
@@ -144,8 +146,15 @@ This worked!
     <img src="./assets/case_top_view.jpg" alt="The cabling as a diagram" style="max-height: 300px"/>
   <figcaption><em>The case for the ESP32 and the battery from the top</em></figcaption>
 </figure>
+
+
 ### 3D print the wippers
+
+
 
 ## Conclusion
 
 A reflection on your prototyping process and the project outcome. What happens to the prototype after the project?
+
+In conclusion, it was an interesting and enjoyable process from conceptualizing the idea to the development of the first prototype and the refinement into an almost practical product.
+During the build process we learned new technical skills including ESP32 programming, soldering techniques, and 3D printing. Noteworthy among the challenges encountered was the debugging phase, where issues such as insufficient battery power for the integrated components were addressed. Overall, the project served as a practical learning experience, fostering both technical and creative skills in the field of electronic engineering and prototyping.
