@@ -261,10 +261,15 @@ The sponge is attached to the new wiper with glue.
   <figcaption><em>Close-up of the freshly printed wipers</em></figcaption>
 </figure>
 
-## Conclusion
+### Final Version
 
-A reflection on your prototyping process and the project outcome. 
-What happens to the prototype after the project?
+Finally, all the presented steps, like paper prototyping, coding, construction, soldering, and 3D printing the wipers, led to a final version of the prototype. This outcome is not just technically sound but also visually appealing, interactive, and fully functional as a wearable device. The following video shows a demonstration of all the functionalities of the prototype.
+
+<video  height="500" controls>
+  <source src="./assets/final_version.mp4" type="video/mp4">
+</video>
+
+## Conclusion
 
 In conclusion, it was an interesting and enjoyable process 
 from conceptualizing the idea to the development of the first prototype 
@@ -279,4 +284,4 @@ This process sometimes proved to be difficult when we did not know what was caus
 Overall, the project served as a practical learning experience, 
 fostering both technical and creative skills in the field of electronic engineering and prototyping.
 After this project is now done, the prototype will probably be used as an interactive decoration piece for some time.
-Later, the parts like motors and the chip might be reused for projects now that we how to work with the ESP32.
+Later, the parts like motors and the chip might be reused for projects now that we know how to work with the ESP32.
