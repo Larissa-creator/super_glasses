@@ -269,9 +269,14 @@ What happens to the prototype after the project?
 In conclusion, it was an interesting and enjoyable process 
 from conceptualizing the idea to the development of the first prototype 
 and the refinement into an almost practical product.
+This project was also a good way to get an introduction into the FH maker space and the equipment there.
 During the build process we learned new technical skills 
 including ESP32 programming, soldering techniques, and 3D printing. 
 Noteworthy among the challenges encountered was the debugging phase, 
 where issues such as insufficient battery power for the integrated components were addressed. 
+This process sometimes proved to be difficult when we did not know what was causing the problems
+(e.g. broken motor, problem with software code, or insufficient power supply). 
 Overall, the project served as a practical learning experience, 
 fostering both technical and creative skills in the field of electronic engineering and prototyping.
+After this project is now done, the prototype will probably be used as an interactive decoration piece for some time.
+Later, the parts like motors and the chip might be reused for projects now that we how to work with the ESP32.
