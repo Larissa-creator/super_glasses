@@ -254,7 +254,9 @@ void setup() {
       // turn the LED off (LOW is the voltage level)  
       digitalWrite(led, LOW);
     }
+
     String inputMessage1;
+
     // GET input1 value on &lt;ESP_IP&gt;/update?state=&lt;inputMessage1&gt;
     if (request-&gt;hasParam(PARAM_INPUT_1)) {
       inputMessage1 = request-&gt;getParam(PARAM_INPUT_1)-&gt;value();
