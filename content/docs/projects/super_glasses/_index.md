@@ -15,15 +15,23 @@ big sunglasses even cover the eyes.
 
 ## Introduction
 
-The idea for the project is to have wippers that are attached to the glasses 
-so that the glasses can clean themselves. A button click starts two servo motors which are attached to the temples of the glasses next to the spectacle lens. They perform the cleaning motion with the wippers on it.
+The idea for the project is to have wipers that are attached to the glasses 
+so that the glasses can clean themselves. A button click starts two servo motors 
+which are attached to the temples of the glasses next to the spectacle lens. 
+They perform the cleaning motion with the wipers on it.
 
 <figure id="sketch">
     <img src="./assets/brille_sketch.jpg" alt="A sketch of the idea" style="max-height: 200px"/>
   <figcaption><em>A sketch of the idea</em></figcaption>
 </figure>
 
-This documentation contains three more sections. The next section related work presents books, websites and similar projects thar give an introduction to the inexperienced reader. In the section Implementation, the iterations of the build process are presented. Likewise, the code and the construction of the project will be presented in a detailed way. The last section contains the conclusion. It finishes this documentation with a short reflection and the summarized project outcome. 
+This documentation contains three more sections. 
+The next section <em>Related work</em> presents books, websites and similar projects 
+that give an introduction to the inexperienced reader. 
+In the section <em>Implementation</em>, the iterations of the build process are presented. 
+Likewise, the code and the construction of the project will be presented in a detailed way. 
+The last section contains the conclusion. 
+It finishes this documentation with a short reflection and the summarized project outcome. 
 
 ## Related work
 
@@ -40,7 +48,9 @@ Moreover, the two microcontrollers are also present in the literature.
 For example, the Rheinwerk publishing house published the books [Arduino](https://www.rheinwerk-verlag.de/arduino-das-umfassende-handbuch/) and [ESP32](https://www.rheinwerk-verlag.de/mikrocontroller-esp32-das-umfassende-handbuch/) 
 which give a good introduction to the world of Microcontrollers.
 
-After the decision to build windscreen wipers for glasses, the research on the internet showed that other people also had the same idea. In the following, some related projects are presented, which are published on the video platform YouTube.
+After the decision to build windscreen wipers for glasses, 
+the research on the internet showed that other people also had the same idea. 
+In the following, some related projects are presented, which are published on the video platform YouTube.
 
 <figure id="sketch">
     <img src="./assets/1relatedWork.png" alt="Project from Deffinite CoRen" style="max-height: 200px"/>
@@ -75,25 +85,33 @@ As an extension, it uses a moisture sensor to trigger the movement.
 
 ### Paper Prototyping Session
 
-Initially, a paper prototype with the addition of real sunglasses, a battery and a small breadboard was built in a prototyping session to make the idea quickly tangible. The following pictures show some impressions of this session. The sunglasses had windscreen wipers built with popsicle sticks and paper. The Arduino was also rebuilt with paper. The fake Arduino, the battery and the breadboard were attached to a hairband. Furthermore, the prototype had a rain cover to protect the electronics. Of course, this version of the prototype did not have any functionality, but the design was already very similar to the later versions of the prototype.
+Initially, a paper prototype with the addition of real sunglasses, 
+a battery and a small breadboard was built in a prototyping session to make the idea quickly tangible. 
+The following pictures show some impressions of this session. 
+The sunglasses had windscreen wipers built with popsicle sticks and paper. 
+The Arduino was also rebuilt with paper. 
+The fake Arduino, the battery and the breadboard were attached to a hairband. 
+Furthermore, the prototype had a rain cover to protect the electronics. 
+Of course, this version of the prototype did not have any functionality, 
+but the design was already very similar to the later versions of the prototype.
 
 <figure>
-    <img src="./assets/Paper_Prototype_Build.jpg" alt="A sketch of the idea" style="max-height: 300px"/>
-  <figcaption>The picture shows the build process of the paper prototype</figcaption>
+    <img src="./assets/Paper_Prototype_Build.jpg" alt="The build process of the paper prototype" style="max-height: 300px"/>
+  <figcaption>The build process of the paper prototype</figcaption>
 </figure>
 <figure>
-    <img src="./assets/Paper_Prototype_finished.jpg" alt="A sketch of the idea" style="max-height: 400px"/>
-  <figcaption>A picture of the finished paper prototype</figcaption>
+    <img src="./assets/Paper_Prototype_finished.jpg" alt="The finished paper prototype" style="max-height: 400px"/>
+  <figcaption>The finished paper prototype</figcaption>
 </figure>
 <figure>
-    <img src="./assets/Paper_Prototype_finished_with_hat.jpg" alt="A sketch of the idea" style="max-height: 400px"/>
-  <figcaption>A picture of the finished paper prototype with a rain cover</figcaption>
+    <img src="./assets/Paper_Prototype_finished_with_hat.jpg" alt="The finished paper prototype with a rain cover" style="max-height: 400px"/>
+  <figcaption>The finished paper prototype with a rain cover</figcaption>
 </figure>
 
 ### First version with the Arduino
 
 Our first try still had a real push button and was made with an Arduino. 
-The wippers consisted of popsicle sticks and sponges as 
+The wipers consisted of popsicle sticks and sponges as 
 the width of the stick prevented the sponge from rotating. 
 <figure>
     <img src="./assets/V01_front.jpg" alt="First Version from the front" style="max-height: 500px"/>
@@ -101,9 +119,9 @@ the width of the stick prevented the sponge from rotating.
 </figure>
 Using our knowledge from the lessons we built our circuit 
 which can be seen on <a href="#v01circuit">the picture <em>First version's circuit</em></a>. 
-While the circuit looks simple, <a href="#v01real">the photo <em>The cabeling in real life</em></a> shows that the implementation looks like a mess
+While the circuit looks simple, <a href="#v01real">the photo <em>The cabling in real life</em></a> shows that the implementation looks like a mess
 as there are many wires in a narrow space. 
-To make the cabling reproducible, there is <a href="#v01img">the image <em>The cabeling as a diagram</em></a>. 
+To make the cabling reproducible, there is <a href="#v01img">the image <em>The cabling as a diagram</em></a>. 
 <figure id="v01circuit">
     <img src="./assets/V01_Kreis.jpg" alt="First version's circuit" style="max-height: 300px"/>
   <figcaption><em>First version's circuit</em></figcaption>
@@ -127,7 +145,7 @@ Afterward, the pin position will be detached.
 After knowing the ESP32 we decided to use it instead of the Arduino 
 because the wearer would not need to search for the push button on their head anymore
 as it would exist on the smartphone. Since there is enough space on the website 
-we also decided to implement additional buttons which show emotions with the wippers. 
+we also decided to implement additional buttons which show emotions with the wipers. 
 The end version has in total seven buttons: 
 <ul>
     <li>Reset</li>
@@ -164,33 +182,68 @@ if the code was iterated in case the action did not happen.
 
 ### Time to solder
 
+To reduce the amount of cables needed and to prevent them from detaching,
+we decided to solder. 
+<a href="#vendcircuit">The image <em>Final version's circuit</em></a>
+shows as its name suggest the final circuit. 
+On <a href="#solderbelow">the photo <em>The PCB from below</em></a> one can see how we soldered. 
+<a href="#vendimg">The image <em>The final cabling as a diagram</em></a> 
+is the translation of the soldering as a diagram.
+<a href="#vendcomp">The photo <em>The result of the soldering</em></a> 
+shows that the battery, the ESP32 and the servo motors are now connected with the PCB.
+By putting the battery below the PBC, what the user needs to wear 
+becomes even more compact as they can be put into one case. 
 
+<figure id="vendcircuit">
+    <img src="./assets/VEnd_Kreis.jpg" alt="Final version's circuit" style="max-height: 300px"/>
+  <figcaption><em>Final version's circuit</em></figcaption>
+</figure>
+<figure id="solderbelow">
+    <img src="./assets/solder_below.jpg" alt="The PCB from below" style="max-height: 300px"/>
+  <figcaption><em>The PCB from below</em></figcaption>
+</figure>
+<figure id="vendimg">
+    <img src="./assets/VEnd_Kabeln.jpg" alt="The final cabling as a diagram" style="max-height: 300px"/>
+  <figcaption><em>The final cabling as a diagram</em></figcaption>
+</figure>
+<figure id="vendcomp">
+    <img src="./assets/solder_parts.jpg" alt="The result of the soldering" style="max-height: 300px"/>
+  <figcaption><em>The result of the soldering</em></figcaption>
+</figure>
 
 ### Building a case
 
 Larissa
 
 <figure>
-    <img src="./assets/scetches_for_case.jpg" alt="The cabling as a diagram" style="max-height: 300px"/>
-  <figcaption><em>Scetches for the case with different themes</em></figcaption>
+    <img src="./assets/sketches_for_case.jpg" alt="Sketches for the case with different themes" style="max-height: 300px"/>
+  <figcaption><em>Sketches for the case with different themes</em></figcaption>
 </figure>
 <figure>
-    <img src="./assets/case_side_view.jpg" alt="The cabling as a diagram" style="max-height: 300px"/>
+    <img src="./assets/case_side_view.jpg" alt="The case for the ESP32 and the battery from the side" style="max-height: 300px"/>
   <figcaption><em>The case for the ESP32 and the battery from the side</em></figcaption>
 </figure>
 <figure>
-    <img src="./assets/case_top_view.jpg" alt="The cabling as a diagram" style="max-height: 300px"/>
+    <img src="./assets/case_top_view.jpg" alt="The case for the ESP32 and the battery from the top" style="max-height: 300px"/>
   <figcaption><em>The case for the ESP32 and the battery from the top</em></figcaption>
 </figure>
 
 
-### 3D print the wippers
+### 3D print the wipers
 
 
 
 ## Conclusion
 
-A reflection on your prototyping process and the project outcome. What happens to the prototype after the project?
+A reflection on your prototyping process and the project outcome. 
+What happens to the prototype after the project?
 
-In conclusion, it was an interesting and enjoyable process from conceptualizing the idea to the development of the first prototype and the refinement into an almost practical product.
-During the build process we learned new technical skills including ESP32 programming, soldering techniques, and 3D printing. Noteworthy among the challenges encountered was the debugging phase, where issues such as insufficient battery power for the integrated components were addressed. Overall, the project served as a practical learning experience, fostering both technical and creative skills in the field of electronic engineering and prototyping.
+In conclusion, it was an interesting and enjoyable process 
+from conceptualizing the idea to the development of the first prototype 
+and the refinement into an almost practical product.
+During the build process we learned new technical skills 
+including ESP32 programming, soldering techniques, and 3D printing. 
+Noteworthy among the challenges encountered was the debugging phase, 
+where issues such as insufficient battery power for the integrated components were addressed. 
+Overall, the project served as a practical learning experience, 
+fostering both technical and creative skills in the field of electronic engineering and prototyping.
