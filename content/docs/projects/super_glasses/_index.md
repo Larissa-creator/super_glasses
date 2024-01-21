@@ -263,9 +263,14 @@ The sponge is attached to the new wiper with glue.
 
 ### Final Version
 
-Finally, all the presented steps, like paper prototyping, coding, construction, soldering, and 3D printing the wipers, led to a final version of the prototype. This outcome is not just technically sound but also visually appealing, interactive, and fully functional as a wearable device. The following video shows a demonstration of all the functionalities of the prototype.
+Finally, all the presented steps, like paper prototyping, 
+coding, construction, soldering, and 3D printing the wipers, 
+led to a final version of the prototype. 
+This outcome is not just technically sound but also visually appealing, 
+interactive, and fully functional as a wearable device. 
+The following video shows a demonstration of all the functionalities of the prototype.
 
-<video  height="500" controls>
+<video height="500" controls>
   <source src="./assets/final_version.mp4" type="video/mp4">
 </video>
 
