@@ -14,8 +14,8 @@ type: docs
 #include &lt;SPI.h&gt;
 
 // Replace with your network credentials
-const char* ssid = &quot;wlanName&quot;; 
-const char* password = &quot;wlanPassWord&quot;;
+const char* ssid = &quot;wlanName&quot;;
+const char* password = &quot;wlanPassword&quot;;
 
 // Create AsyncWebServer object on port 80
 AsyncWebServer server(80);
@@ -42,8 +42,6 @@ int rightServoPin = 33;
 
 // time in ms for the servo to reach the position
 int delaytime = 15;
-
-int switchState = 0;
 
 int baseRot = 90;
 
@@ -109,7 +107,7 @@ void clean() {
 
   // goes up again
   for (int i = maxRot; i &gt;= 0; i -= 1) {
-    rotateBothAngle(baseRot, 0, i, true, delaytime);
+    rotateBothAngle(baseRot, 0, i, false, delaytime);
   }
 }
 
@@ -124,7 +122,7 @@ void shock() {
 
   // goes down again
   for (int i = shockRot; i &gt;= 0; i -= 1) {
-    rotateBothAngle(baseRot, 0, i, false, delaytime);
+    rotateBothAngle(baseRot, 0, i, true, delaytime);
   }
 }
 
@@ -167,7 +165,7 @@ void anger() {
 
   // goes up again
   for (int i = angerRot; i &gt;= 0; i -= 1) {
-    rotateBothAngle(baseRot, 0, i, true, delaytime);
+    rotateBothAngle(baseRot, 0, i, false, delaytime);
   }
 }
 
@@ -183,7 +181,7 @@ void wiggle() {
 
   // goes wiggleDif down
   for (int i = wiggleDif; i &gt;= 0; i -= 1) {
-    rotateBothAngle(baseRot, wiggleRemain, i, false, wiggleUpdate);
+    rotateBothAngle(baseRot, wiggleRemain, i, true, wiggleUpdate);
   }
 
   delay(wiggleDelay);
@@ -197,7 +195,7 @@ void wiggle() {
 
   // goes wiggleDif down
   for (int i = wiggleDif; i &gt;= 0; i -= 1) {
-    rotateBothAngle(baseRot, wiggleRemain, i, false, wiggleUpdate);
+    rotateBothAngle(baseRot, wiggleRemain, i, true, wiggleUpdate);
   }
 
   delay(wiggleDelay);
@@ -211,7 +209,7 @@ void wiggle() {
 
   // goes down to defaultstate
   for (int i = wiggleRot; i &gt;= 0; i -= 1) {
-    rotateBothAngle(baseRot, 0, i, false, delaytime);
+    rotateBothAngle(baseRot, 0, i, true, delaytime);
   }
 }
 
@@ -250,8 +248,10 @@ void setup() {
 
   server.on(&quot;/update&quot;, HTTP_GET, [] (AsyncWebServerRequest *request) {
     if (WiFi.status() == WL_CONNECTED) {
-      digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
+      // turn the LED on (HIGH is the voltage level)   
+      digitalWrite(led, HIGH); 
     } else {
+      // turn the LED off (LOW is the voltage level)  
       digitalWrite(led, LOW);
     }
     String inputMessage1;
