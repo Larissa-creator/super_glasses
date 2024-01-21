@@ -41,10 +41,6 @@ For example the Rheinwerk publishing house published the books [Arduino](https:/
 which give a good introduction to the world of Microcontrollers.
 
 After the decision to build windscreen wipers for glasses, the research on the internet showed that other people also had the same idea. In the following some related projects are presented which are published on the video platform YouTube.
-<figure>
-    <img src="./assets/1relatedWork.png" alt="A sketch of the idea" style="max-height: 200px"/>
-  <figcaption>picture of a similar project</figcaption>
-</figure>
 
 <figure id="sketch">
     <img src="./assets/1relatedWork.png" alt="Project from Deffinite CoRen" style="max-height: 200px"/>
@@ -75,12 +71,24 @@ As an extension, it uses a moisture sensor to trigger the movement.
 
 
 ## Implementation 
-
-A detailed description of your prototyping process.
+ This section contains a detailed description of the prototyping process.
 
 ### Paper Prototyping Session
 
-This did not work.
+At the beginning a paper prototype with additional real sunglasses, a battery and a small breadboard was built in a prototyping session to make the idea quickly tangible. The following pictures show some impressions of this session. The sunglasses had windscreen wipers built with popsicle sticks and paper. The Arduino was also rebuilt with paper. The fake Arduino, the battery and the breadboard were attached to a hairband. Furthermore the prototype had a rain cover to protect the electronics. Of couse this version of the prototype did not had any functionality but the design was already very similar to the later versions of the prototype.
+
+<figure>
+    <img src="./assets/Paper_Prototype_Build.jpg" alt="A sketch of the idea" style="max-height: 300px"/>
+  <figcaption>The picture shows the build process of the paper prototype</figcaption>
+</figure>
+<figure>
+    <img src="./assets/Paper_Prototype_finished.jpg" alt="A sketch of the idea" style="max-height: 400px"/>
+  <figcaption>A picture of the finished paper prototype</figcaption>
+</figure>
+<figure>
+    <img src="./assets/Paper_Prototype_finished_with_hat.jpg" alt="A sketch of the idea" style="max-height: 400px"/>
+  <figcaption>A picture of the finished paper prototype with a rain cover</figcaption>
+</figure>
 
 ### First version with the Arduino
 
@@ -110,7 +118,7 @@ To make the cabling reproducible, there is <a href="#v01img">the image <em>The c
 </figure>
 
 The complete code of the first version can be found on the subpage [First version's code]({{< ref "v01_code" >}}). 
-The code works the following way: The arduino continuously listens whether the button has been pressed or not. 
+The code works the following way: The Arduino continuously listens whether the button has been pressed or not. 
 If it has been, the pin position will be attached to the servo and then the servos move the wippers once down and up.
 Afterward the pin position will be detached.
 
