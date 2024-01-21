@@ -23,7 +23,7 @@ so that the glasses can clean themselves. A button click starts two servo motors
   <figcaption><em>A sketch of the idea</em></figcaption>
 </figure>
 
-This documentation contains three more sections. The next section related work presents books, websites and similar projects which give an introduction to the inexperienced reader. In the section Implementation the iterations of the build process are presented. 
+This documentation contains three more sections. The next section related work presents books, websites and similar projects which give an introduction to the inexperienced reader. In the section Implementation the iterations of the build process are presented. Also the code and the construction of the project will be presented in a detailed way. The last sections contains the conclusion. It finishes this documentation with a short reflection and the summarised project outcome. 
 
 ## Related work
 
@@ -130,6 +130,20 @@ This worked!
 
 ### Building a case
 
+
+
+<figure>
+    <img src="./assets/scetches_for_case.jpg" alt="The cabling as a diagram" style="max-height: 300px"/>
+  <figcaption><em>Scetches for the case with different themes</em></figcaption>
+</figure>
+<figure>
+    <img src="./assets/case_side_view.jpg" alt="The cabling as a diagram" style="max-height: 300px"/>
+  <figcaption><em>The case for the ESP32 and the battery from the side</em></figcaption>
+</figure>
+<figure>
+    <img src="./assets/case_top_view.jpg" alt="The cabling as a diagram" style="max-height: 300px"/>
+  <figcaption><em>The case for the ESP32 and the battery from the top</em></figcaption>
+</figure>
 ### 3D print the wippers
 
 ## Conclusion
