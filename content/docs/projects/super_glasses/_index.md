@@ -265,7 +265,7 @@ What happens to the prototype after the project?
 In conclusion, it was an interesting and enjoyable process 
 from conceptualizing the idea to the development of the first prototype 
 and the refinement into an almost practical product.
-This project was also a good way to get an introduction into the maker space and 3D printers.
+This project was also a good way to get an introduction into the FH maker space and the equipment there.
 During the build process we learned new technical skills 
 including ESP32 programming, soldering techniques, and 3D printing. 
 Noteworthy among the challenges encountered was the debugging phase, 
